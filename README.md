@@ -25,7 +25,7 @@ $$
 **2D Gradient of SSR (using learning rate $\eta$):**
 
 <p align="center">
-  <img src="image_5a2b4b4.jpg" alt="a" width="100%">
+  <img src="image_c094ddc7.jpg" alt="a" width="100%">
 </p>
 
 $\nabla f$ is a vector field (set of continuous vector outputs)
