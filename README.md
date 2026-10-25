@@ -5,7 +5,7 @@
   <img src="image_1095bd2c.jpg" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
 </p>
 
-A 3D paraboloid error function with a leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its coordinates = slope & intercept of the linear regression.
+A 3D paraboloid error function with a leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its coordinate = slope & intercept of the linear regression.
 
 Linear regression: $l(x)=mx+b$
 
