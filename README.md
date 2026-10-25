@@ -5,7 +5,7 @@
   <img src="image_1095bd2c.jpg" alt="3D Paraboloid & 2D Convergence Contour Map" width="100%">
 </p>
 
-A 3D paraboloid error function with a leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its coordinate = slope & intercept of the linear regression.
+A 3D paraboloid error function with a leading coefficient > 0 $\implies$ its partial derivatives = 0 $\Leftrightarrow$ its coordinates = slope & intercept of the linear regression.
 
 Linear regression: $l(x)=mx+b$
 
@@ -28,7 +28,7 @@ $$
   <img src="image_c094ddc7.jpg" alt="a" width="100%">
 </p>
 
-$\nabla f$ is a vector field (set of continuous vector outputs)
+$\nabla f$ is a vector field (a set of continuous vector outputs)
 
 $$
 \nabla f(m, b) = \frac{\partial f}{\partial m} \ \hat{i} + \frac{\partial f}{\partial b} \ \hat{j}
@@ -58,11 +58,11 @@ $\lim_{n \to \infty} m_n = m_{\text{vertex}}$ and $\lim_{n \to \infty} b_n = b_{
 
 
 ## Project Overview
-Integrated partial differentiation and gradient to a Java-based linear regression tool for highway traffic modeling.
+Integrated partial differentiation and gradient into a Java-based linear regression tool for highway traffic modeling.
 
 <p align="center">
   <img src="javaIMG.png" alt="aa" width="100%">
 </p>
 
 # Convergence & Limitations
-- The algorithm requires sufficiently small learning rate ($\eta$) for convergence. The ㅊonvergence slows near the local minimum as the gradient magnitude approaches zero ($\|\nabla f\| \approx 0$). Thus, a threshold is needed to prevent infinite loops.
+- The algorithm requires a sufficiently small learning rate ($\eta$) for convergence. The convergence slows near the local minimum as the gradient magnitude approaches zero ($\|\nabla f\| \approx 0$). Thus, a threshold is needed to prevent infinite loops.
